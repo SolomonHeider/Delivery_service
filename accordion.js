@@ -1,3 +1,9 @@
+//костыль для того, чтобы содержимое помещалось в .content
+let content = document.getElementsByClassName('content')[0];
+var resize = function() {
+ content.style.height =
+     document.getElementsByClassName('main-page')[0].scrollHeight+"px";
+}
 var accordion=document.getElementsByClassName('accordion');
 accordion[0].onclick = function (event)
 {
@@ -8,10 +14,12 @@ accordion[0].onclick = function (event)
         if (openedItem)
         {
             openedItem.classList.remove('open');
+			content.style.height = basicHeight;
         }
         if (openedItem !== target.closest('li'))
         {
             target.closest('li').classList.add('open');
+			resize();
         }
     }
     else
@@ -19,7 +27,5 @@ accordion[0].onclick = function (event)
         return;
     }
 }
-
-//костыль для того, чтобы содержимое помещалось в .content
-document.getElementsByClassName('content')[0].style.height =
-    document.getElementsByClassName('main-page')[0].scrollHeight+"px";
+resize();
+let basicHeight = content.style.height;
