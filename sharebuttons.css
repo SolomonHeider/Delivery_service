@@ -1,0 +1,12 @@
+.share{
+	position: absolute;
+	top:50%;
+	left: 45%;
+}
+.menu .menu-item{
+ display:inline-block;
+ position: relative;
+ left:-10px;
+ bottom: 60px;
+}
+   
