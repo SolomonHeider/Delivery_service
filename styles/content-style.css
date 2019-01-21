@@ -16,9 +16,8 @@ h1{
  margin-right: 10px;
 }
 #map{
- width: 70%;
- height: 70%;
- margin: 20px;
+ width: 100%;
+ height: 90%;
 }
 .popup span{
  display: inline-block;
@@ -31,4 +30,11 @@ h1{
 }
 .phone{
  font-weight: bold;
+}
+.text {
+	font-size:1.5vw;
+}
+#calc {
+	border: 3px solid black;
+	border-radius: 10px;
 }

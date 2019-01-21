@@ -1,0 +1,11 @@
+html{
+	 font-family: "Proxima Nova", sans-serif;
+	 font-size: 1vw;
+}
+h2{
+	font-weight: bold;
+	margin-left: 20px;
+}
+#types1{
+	list-style-type: square;
+}

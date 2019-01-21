@@ -1,0 +1,5 @@
+#inline-list{
+	list-style: square outside;
+	background:red;
+}
+p{background:red;color:red}

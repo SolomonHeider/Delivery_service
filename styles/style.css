@@ -1,11 +1,17 @@
 * {
  box-sizing: border-box;
 }
+html {
+ font-family: "Proxima Nova", sans-serif;
+ font-size: 1vw;
+}
 body {
  margin: 0;
  height: 100%;
  width: 100%;
  overflow: auto;
+ font-size:1vw;
+ 
 }
 ul{
  padding:0;
@@ -14,7 +20,7 @@ ul{
 li{
  list-style:none;
 }
-a, a:visited{
+a, a:visited, a:hover {
  text-decoration:none;
  color:inherit;
 }
@@ -99,4 +105,39 @@ a, a:visited{
  min-height: 100%;
  background-color: white;
  margin: 1% 10% 0 10%;
+ padding:10px;
+}
+#carousel {
+	width: 100%;
+	height:50%;
+}
+#welcome {
+	font-size: 1.2vw;
+	margin-bottom:0;
+}
+p{
+	font-family: "Proxima Nova", sans-serif;
+	margin: 20px;
+	font-size: 1vw;
+}
+#inline-list{
+	margin-left: 50px;
+}
+#inline-list li{
+	list-style: square outside;
+}
+h3 {
+	font-size:1.5vw;
+	font-weight: bold;
+}
+h2 {
+	font-size:1.8vw;
+	font-weight: bold;
+}
+.error {
+	color: red;
+	margin-top: 10px;
+}
+.result {
+	margin-top: 10px;
 }

@@ -5,7 +5,8 @@
  border-right: 1px solid #ddd;
  margin: auto;
  padding-left: 0;
- width: 35%;
+ width: 96%;
+ font-family: "Proxima Nova", sans-serif;
 }
 .accordion-header{
  position: relative;
@@ -15,7 +16,7 @@
  padding: 0 5px;
  line-height: 40px ;
  min-height: 40px;
- font-size: 18px;
+ font-size: 1.1vw;
  font-weight: bold;
 }
 .accordion-header:after{
@@ -31,7 +32,7 @@
 .accordion-body{
  display: none;
  padding: 10px;
- font-size: 18px;
+ font-size: 1vw;
  border-bottom: 1px solid #ddd;
 }
 .open .accordion-body{

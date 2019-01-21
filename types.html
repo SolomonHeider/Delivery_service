@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+ <link rel="stylesheet" type="text/css" href="styles/style.css" /> 
+ <link rel="stylesheet" type="text/css" href="styles/types-style.css" />
+ <link rel="stylesheet" type="text/css" href="styles/accordion.css" />
+ <link rel="stylesheet" href="fonts/ProximaNova.css" />
+   <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+ <title>FastWay</title>
+</head>
+<body>
+  <header class="header">
+   <div class="logo">
+    &nbsp;
+   </div>
+   <div class="panel">
+    <ul class="menu">
+   <li class="menu-item">
+       <a href="index.html" class="menu-link">
+        Главная
+       </a>
+      </li>
+      <li class="menu-item">
+       <a href="news.html" class="menu-link">
+        Новости компании
+       </a>
+      </li>
+      <li class="menu-item">
+       <a href="calc.html" class="menu-link">
+        Калькулятор цен
+       </a>
+      </li>
+      <li class="menu-item">
+       <a href="types.html" class="menu-link">
+        Типы доставки
+       </a>
+   </li>
+      <li class="menu-item">
+       <a href="pay-types.html" class="menu-link">
+        Способы оплаты
+       </a>
+      </li>
+      <li class="menu-item">
+       <a href="howto.html" class="menu-link">
+        Как оформить заказ
+       </a>
+      </li>
+   <li class="small-circle"></li>
+      <li class="menu-item">
+       <a href="about.html" class="menu-link">
+        О компании
+       </a>
+      </li>
+      <li class="menu-item">
+       <a href="contacts.html" class="menu-link">
+        Адреса офисов
+       </a>
+      </li>
+      <li class="menu-item">
+       <a href="vacancy.html" class="menu-link">
+        Вакансии
+       </a>
+  </li>
+  <li class="menu-item">
+       <a href="title.html" class="menu-link">
+        О работе
+       </a>
+  </li>
+    </ul>
+   </div>
+   <div class="nav">
+    <p class="slider btn-hide">
+     <a href="#" class="btn-slider"></a>
+    </p>
+   </div>
+  </header>
+  <div class="main-page">
+   <div class="content">
+	<h2>Типы доставки</h2>
+	  <p>В компании "FastWay" вы можете выбрать один из двух тарифов доставки:</p>
+    <ul class="accordion">
+     <li>
+      <div class="accordion-header">Обычная доставка</div>
+      <div class="accordion-body">
+	   Классическая доставка авиа и автотранспортом по всей стране.<br><br>
+	   Максимальные ограничения массы и габаритов:
+	   <ul id="types1">
+	    <li>Максимальная масса одного места - 80 кг</li>
+	    <li>Максимальная масса одной отправки - 400 кг</li>
+	    <li>Максимальные габариты одного места - 120 см по длине, 80 см по ширине, 80 см по высоте</li>
+	    <li>Объемный вес - 1 м³ = 200 кг</li>
+	   </ul>
+	   <br>
+	   Цена отправления - от 200 р.
+	  </div>
+     </li>
+	 <li>
+      <div class="accordion-header">Экспресс-доставка</div>
+      <div class="accordion-body">
+	   Экспресс-доставка по России, в том числе на следующий день в основные города РФ.<br><br>
+	   Максимальные ограничения массы и габаритов:
+	   <ul id="types1">
+	    <li>Максимальная масса одного места - 30 кг</li>
+	    <li>Максимальная масса одной отправки - 150 кг</li>
+	    <li>Максимальные габариты одного места - сумма всех сторон не более 200 см, максимальный габарит не более 100 см</li>
+	    <li>Объемный вес - 1 м³ = 200 кг</li>
+	   </ul>
+	   <br>
+	   Цена отправления - от 800 р.
+	  </div>
+     </li>
+    </ul>
+	<p>Доставка может осуществляться одним из четырёх типов:</p>
+    <ul class="accordion">
+     <li>
+      <div class="accordion-header">Склад-склад</div>
+      <div class="accordion-body">
+	   Отправитель привозит груз в нашу компанию, в городе доставки получатель 
+	   самостоятельно забирает груз в пункте выдачи заказов. Цена отправления - от 100 р.
+	  </div>
+     </li>
+	 <li>
+      <div class="accordion-header">Склад-дверь</div>
+      <div class="accordion-body">
+	   Отправитель привозит груз в нашу компанию, в городе доставки получателю доставляют груз курьером.
+	   Цена отправления - от 200 р.
+	  </div>
+     </li>
+	 <li>
+      <div class="accordion-header">Дверь-склад</div>
+      <div class="accordion-body">
+	   Курьер забирает груз у отправителя, в городе доставки получатель самостоятельно забирает груз в пункте выдачи заказов.
+	   Цена отправления - от 200 р.
+	  </div>
+     </li>
+	 <li>
+      <div class="accordion-header">Дверь-дверь</div>
+      <div class="accordion-body">
+	   Наш курьер забирает груз у отправителя и доставляет его получателю лично в руки.
+	   Цена отправления - от 400 р.
+	  </div>
+     </li>
+    </ul>
+<p> Чтобы рассчитать предварительную стоимость грузоперевозки по параметрам груза, используйте 
+<a href="#">онлайн-калькулятор</a> на сайте транспортной Компании «FastWay».</p>
+   </div>
+  </div>
+  <script src="scripts/scripts.js"></script>
+  <script src="scripts/accordion.js"></script>
+  <script src="scripts/slider.js"></script>
+</body>
+</html>
